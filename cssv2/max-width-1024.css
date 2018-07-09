@@ -16,7 +16,8 @@
     width: 150px;
 }
 
-.dropdown-toggle, .sticky-content {
+.dropdown-toggle,
+.sticky-content {
     display: block;
 }
 
@@ -89,29 +90,35 @@ body:before {
     float: none;
 }
 
-.top-header, .header-number .text, .right-header .schedule-consult .phone-icon {
+.top-header,
+.header-number .text,
+.right-header .schedule-consult .phone-icon {
     display: none;
 }
 
-.toggle-icon, .dropdown-toggle {
+.toggle-icon,
+.dropdown-toggle {
     display: block;
 }
 
-.nav-section .menu > li {
+.nav-section .menu>li {
     display: block;
     text-align: left;
 }
 
-.nav-section .menu > li > a {
+.nav-section .menu>li>a {
     padding: 10px;
 }
 
-.nav-section .sub-menu, .nav-section .menu li:hover .sub-menu, .nav-section .sub-menu, .nav-section .menu li:hover .sub-menu .sub-menu {
+.nav-section .sub-menu,
+.nav-section .menu li:hover .sub-menu,
+.nav-section .sub-menu,
+.nav-section .menu li:hover .sub-menu .sub-menu {
     display: none;
 }
 
 .nav-section .menu li .sub-menu {
-    background: #2094a1;
+    background: #2F3490;
     position: static;
     width: 100%;
 }
@@ -121,7 +128,7 @@ body:before {
 }
 
 .header .header-number {
-    background: #2094a1 none repeat scroll 0 0;
+    background: #2F3490 none repeat scroll 0 0;
     left: 0;
     position: fixed;
     text-align: center;
@@ -130,7 +137,8 @@ body:before {
     z-index: 9999999;
 }
 
-.header .header-number a, .header-number span {
+.header .header-number a,
+.header-number span {
     color: #fff;
 }
 
@@ -150,7 +158,7 @@ body:before {
 }
 
 .home-page-tabs h2.resp-tab-active {
-    background: #2094a1 !important;
+    background: #2F3490 !important;
 }
 
 .remolding-tabs.home-page-tabs .left-content {
@@ -165,7 +173,8 @@ body:before {
     width: 100%;
 }
 
-.home-page-tabs.remolding-tabs, .home-page-tabs.our-process-tabs {
+.home-page-tabs.remolding-tabs,
+.home-page-tabs.our-process-tabs {
     padding: 30px 10px;
 }
 
@@ -193,7 +202,8 @@ h2.resp-accordion {
     display: none;
 }
 
-.hover-icon, .tab-icon {
+.hover-icon,
+.tab-icon {
     display: none;
 }
 

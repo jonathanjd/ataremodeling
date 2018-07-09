@@ -204,7 +204,7 @@ li {
 a {
     text-decoration: none;
     outline: none;
-    color: #2094a1;
+    color: #2F3490;
 }
 
 a:hover {
@@ -218,7 +218,7 @@ img {
 h1 {
     font-size: 30px;
     font-weight: 400;
-    color: #2094a1;
+    color: #2F3490;
     margin: 30px 0;
 }
 
@@ -333,7 +333,7 @@ h3 {
 }
 
 .bg-secendry {
-    background: #2094a1;
+    background: #2F3490;
 }
 
 .bg-green {
@@ -349,7 +349,7 @@ h3 {
 }
 
 .color-secendry {
-    color: #2094a1;
+    color: #2F3490;
 }
 
 .section-title {
@@ -546,7 +546,7 @@ h3 {
 }
 
 .schedule-consult .phone-icon {
-    color: #2094a1;
+    color: #2F3490;
     display: inline-block;
     font-size: 60px;
     font-weight: normal;
@@ -675,7 +675,7 @@ h3 {
     border-radius: 1px;
     height: 4px;
     width: 40px;
-    background: #2094A1;
+    background: #2F3490;
     position: absolute;
     display: block;
     content: '';
@@ -918,7 +918,7 @@ h3 {
 }
 
 .design-build-firm .slick-dots li {
-    background: #2094a1 none repeat scroll 0 0;
+    background: #2F3490 none repeat scroll 0 0;
     border-radius: 50%;
 }
 
@@ -1139,7 +1139,7 @@ h3 {
 }
 
 .apart-col.bg-secendry.resp-tab-item.resp-tab-active:before {
-    background: #2094a1;
+    background: #2F3490;
 }
 
 .home-page-tabs .tab-content ul {
@@ -1174,7 +1174,7 @@ h3 {
 }
 
 .customer-title {
-    color: #2094a1;
+    color: #2F3490;
     font-size: 20px;
     margin: 0 0 10px;
 }
@@ -1384,7 +1384,7 @@ h3 {
 .brand-logo-sec .slick-next::before,
 .finished-projects .slick-prev::before,
 .finished-projects .slick-next::before {
-    color: #2094a1;
+    color: #2F3490;
     font-family: FontAwesome;
     font-size: 25px;
     line-height: 0;
@@ -1413,7 +1413,7 @@ h3 {
 
 .brand-logo-sec .slick-dots li,
 .finished-projects .slick-dots li {
-    background: #2094a1 none repeat scroll 0 0;
+    background: #2F3490 none repeat scroll 0 0;
     border-radius: 50%;
     margin: 0 2px;
 }
@@ -1859,7 +1859,7 @@ h3 {
 }
 
 .footer-title {
-    color: #2094a1;
+    color: #2F3490;
     font-size: 20px;
     margin: 0 0 15px;
     font-weight: 700;
@@ -2132,7 +2132,7 @@ h3 {
 }
 
 .remolding-tabs .section-title a {
-    color: #2094a1;
+    color: #2F3490;
 }
 
 .cancle-bt {
@@ -2234,12 +2234,12 @@ h3 {
 }
 
 .staff-row .service {
-    color: #2094a1;
+    color: #2F3490;
     font-weight: 700;
 }
 
 .staff-row .mail {
-    color: #2094a1;
+    color: #2F3490;
     font-weight: 700;
 }
 
@@ -2252,7 +2252,7 @@ h3 {
 }
 
 .contracter-title {
-    color: #2094a1;
+    color: #2F3490;
     font-size: 30px;
     font-weight: 400;
     margin: 30px 0 50px;
@@ -2558,4 +2558,11 @@ body .gform_wrapper li {
     transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+@media (max-width:500px) {
+    .toggle-icon,
+    .dropdown-toggle {
+        top: 50px;
+    }
 }
